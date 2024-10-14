@@ -1,8 +1,8 @@
-#include<iostream> 
+#include<iostream>         // this is a header file
 
-using namespace std;
+using namespace std;       // this line is for using namespace
 
-int main(){
+int main(){                // this is called main function
 
    // variable and data type
 
@@ -37,5 +37,5 @@ int main(){
                                           // next line.
    
 
-    return 0;
+    return 0;                // this is return statement for main function
 }
