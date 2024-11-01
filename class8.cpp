@@ -60,6 +60,43 @@ int main(){
             }
             cout<<i<<endl;
        }
+
+       
+    // syntax of while loop
+    int j=1;      // intialization
+    while(j<=10){     // condition
+        cout<<j<<endl;
+        j++;       // increment
+    }
+    
+    // we can also use while loop for charecter
+
+    char ch='a';
+    while(ch<='z'){
+        cout<<ch<<endl;
+        ch++;
+    }
+
+
+    int a=5,b=10;
+    while(a--,b--){  // if there are multiple variable then our while loop
+                     // condition always check last variable value is it true 
+                     // or false
+        cout<<a<<" "<<b<<endl;
+        
+    }
+    
+    // this loop will run forever, we call it infinite loop
+    for(int i=1; ; i++){
+        cout<<i<<endl;
+    }
+    
+    // this loop will not be run because our condition is false
+    int i=3;
+    while(i<2){
+        cout<<i<<endl;
+    }
+    
       
       // this program is for calculate summetion of this series
       // 1+2+3+4+5+.......+n;
