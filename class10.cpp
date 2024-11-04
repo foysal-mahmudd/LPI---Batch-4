@@ -3,7 +3,17 @@
 using namespace std;
 
 int main(){
-
+ 
+// this program is to calculate factorial of a number
+ int n;
+ cin>>n;
+ int ans=1;
+ 
+ for(int i=1; i<=n; i++){
+  ans=ans*i;
+ }
+ cout<<ans<<endl;
+ 
 // this program is for reversing a number like if user input 4325 then it will 
  // reverse into 5234;
 
